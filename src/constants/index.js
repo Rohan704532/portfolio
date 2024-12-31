@@ -2,6 +2,7 @@ import Gemini from "../assets/projects/Gemini.png";
 import tomato from "../assets/projects/tomato.png";
 import calendar from "../assets/projects/calendar.png";
 import uber_booking from "../assets/projects/uber_booking.png"
+import portfolio from "../assets/projects/portfolio.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -61,6 +62,15 @@ export const PROJECTS = [
     sourceCode:"https://github.com/Rohan704532/food-delivery",
     url:"https://food-delivery-frontend-g2od.onrender.com/",
     adminPage:"https://food-delivery-admin-go5m.onrender.com/"
+  },
+  {
+    title: "Portfolio",
+    image: portfolio,
+    description:
+      "A Personal portfolio site which will showcase all my experiences and hands on with different technologies bringing myself a perfect fit for today's world.",
+    technologies: ["React.js","Tailwind","framer motion"],
+    sourceCode:"https://github.com/Rohan704532/portfolio",
+    url:"https://portfolio-nu-blue-52.vercel.app/",
   },
 ];
 
