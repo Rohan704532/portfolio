@@ -3,6 +3,7 @@ import tomato from "../assets/projects/tomato.png";
 import calendar from "../assets/projects/calendar.png";
 import uber_booking from "../assets/projects/uber_booking.png"
 import portfolio from "../assets/projects/portfolio.png"
+import project_management from "../assets/projects/project_management.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -31,7 +32,7 @@ export const PROJECTS = [
     image: Gemini,
     description:
       "Gemini uses large language models (LLMs) that learn by reading trillions of words. They can pick up on patterns that make up language and reply to questions using common language patterns. They also learn from your prompts, responses, and feedback.",
-    technologies: ["React", "Node.js", "MongoDB","Tailwind"],
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind"],
     sourceCode: "https://github.com/Rohan704532/gemini-clone",
     url: "https://gemini-clone-frontend-1wno.onrender.com/"
   },
@@ -41,8 +42,8 @@ export const PROJECTS = [
     description:
       "A user-friendly meeting scheduler that seamlessly syncs with your calendar to help you organize and manage appointments effortlessly. Simplify scheduling and avoid conflicts with real-time calendar integration",
     technologies: ["Next.js"],
-    sourceCode:"https://github.com/Rohan704532/calmarshal",
-    url:"https://calmarshal.vercel.app/dashboard"
+    sourceCode: "https://github.com/Rohan704532/calmarshal",
+    url: "https://calmarshal.vercel.app/dashboard"
   },
   {
     title: "Uber-Taxi booking app",
@@ -50,8 +51,8 @@ export const PROJECTS = [
     description:
       "Book rides instantly, track drivers in real time, and enjoy a user-friendly interface for both riders and drivers. Designed with cutting-edge technology to deliver convenience and reliability.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    sourceCode:"https://github.com/Rohan704532/Uber-clone",
-    url:"https://uber-clone-frontend.onrender.com/"
+    sourceCode: "https://github.com/Rohan704532/Uber-clone",
+    url: "https://uber-clone-frontend.onrender.com/"
   },
   {
     title: "Food Delivery App with payment integrated system and admin page",
@@ -59,18 +60,27 @@ export const PROJECTS = [
     description:
       "Streamline food delivery with our app featuring seamless payment integration and an intuitive admin panel. Manage orders, payments, and user interactions effortlessly for a complete dining experience.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-    sourceCode:"https://github.com/Rohan704532/food-delivery",
-    url:"https://food-delivery-frontend-g2od.onrender.com/",
-    adminPage:"https://food-delivery-admin-go5m.onrender.com/"
+    sourceCode: "https://github.com/Rohan704532/food-delivery",
+    url: "https://food-delivery-frontend-g2od.onrender.com/",
+    adminPage: "https://food-delivery-admin-go5m.onrender.com/"
+  },
+  {
+    title: "Project Management App",
+    image: project_management,
+    description:
+      "I created a project management app inspired by Jira, enabling teams to track tasks, manage workflows, and collaborate effectively. Key features include kanban boards, issue tracking, and reporting dashboards, optimized for both desktop and mobile platforms.",
+    technologies: ["NEXT.js", "Tailwind", "AWS Amplify","S3","Node.js","PostgreSQL"],
+    sourceCode: "https://github.com/Rohan704532/project_management",
+    url: "https://master.d3aqvvpdwvufma.amplifyapp.com/",
   },
   {
     title: "Portfolio",
     image: portfolio,
     description:
       "A Personal portfolio site which will showcase all my experiences and hands on with different technologies bringing myself a perfect fit for today's world.",
-    technologies: ["React.js","Tailwind","framer motion"],
-    sourceCode:"https://github.com/Rohan704532/portfolio",
-    url:"https://portfolio-nu-blue-52.vercel.app/",
+    technologies: ["React.js", "Tailwind", "framer motion"],
+    sourceCode: "https://github.com/Rohan704532/portfolio",
+    url: "https://portfolio-nu-blue-52.vercel.app/",
   },
 ];
 
